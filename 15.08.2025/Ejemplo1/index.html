@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Ejercicio Bootstrap</title>
+    <style>
+        .col, .col-4, .col-8 {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            color: white;
+            font-weight: bold;
+        }
+        .color1 { background-color: #ff6b6b; }
+        .color2 { background-color: #4ecdc4; }
+        .color3 { background-color: #1a535c; }
+        .color4 { background-color: #ff9f1c; }
+        .color5 { background-color: #2ec4b6; }
+        .color6 { background-color: #e71d36; }
+    </style>
+</head>
+<body class="p-3">
+
+    <p>Ejemplo de creación de 3 columnas con la clase <code>.col</code>:</p>
+    <div class="container">
+        <div class="row">
+            <div class="col color1">Columna</div>
+            <div class="col color2">Columna</div>
+            <div class="col color3">Columna</div>
+        </div>
+    </div>
+
+    <p>Ejemplo de creación de 3 columnas con la clase <code>.col-xx</code>:</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 color4">Columna</div>
+            <div class="col-4 color5">Columna</div>
+            <div class="col-4 color6">Columna</div>
+        </div>
+    </div>
+
+    <p>Ejemplo de dos columnas (4 espacios y 8 espacios):</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 color1">Contenedor de 4 columnas</div>
+            <div class="col-8 color2">Contenedor de 8 columnas</div>
+        </div>
+    </div>
+
+    <p>Ejemplo de columnas adaptables:</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-md-6 color3">Contenedor 1</div>
+            <div class="col-8 col-md-6 color4">Contenedor 2</div>
+        </div>
+    </div>
+
+</body>
+</html>
