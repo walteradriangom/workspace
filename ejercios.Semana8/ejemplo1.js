@@ -1,0 +1,1 @@
+document. querySelector("h1").innerHTML = "Esta pagina no es compatible con tu navegador. Por favor actualizalo a la vercion mas reciente"
